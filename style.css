@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body  {
+    padding: 20px 40px;
+}
+.mb-2 {
+    margin-bottom: 20px;
+}
+:root {
+    --bg: #2d4059;
+    --text: #ddbe86;
+}
+
+/* Задание 1 */
+#task {
+    width: 100%;
+    white-space: nowrap;
+}
+#task > div {
+    width: 50%;
+    display: inline-block;
+}
+#task_1_1, #task_1_2 {
+    width: 200px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid silver;
+}
+#task_1_1 > img {
+    position: absolute;
+    margin: auto;
+    top: 0; 
+    left: 0;
+    bottom: 0;
+    right: 0;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#task_1_2 > img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Задание 2 */
+.navbar {
+    width: 100%;
+    background-color: var(--bg);
+}
+.navbar > ul {
+    text-align: justify;
+    padding: 0 40px;
+}
+.navbar ul:after, ul::before {
+    width: 100%;
+    content: '';
+    display: inline-block;
+}
+.navbar ul > li{
+    display: inline-block;
+    position: relative;
+}
+.navbar ul > li a {
+    text-decoration: none;
+    color: var(--text)
+}
+
+/* Задание 3 */
+.menu {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    z-index: 1;
+    min-width: 80px;
+    background: var(--bg);
+    transition: .3s linear; 
+    padding: 0 10px 0 15px;
+    left: -40px;
+    border: 1px solid silver;
+    top: 200%;
+}
+li:hover > .menu {
+    visibility: visible; 
+    opacity: 1;
+}
+.menu li{
+    margin-bottom: 10px;
+}
+li:last-child {
+    margin-bottom: 0;
+}
+
+/* Задание 5 */
+.class {
+    background-color: var(--bg);
+    margin: 5px 0;
+}
+
+
+.code {
+    background-color: lightgray;
+    padding: 10px;
+}
