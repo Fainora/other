@@ -1,0 +1,380 @@
+{
+    "_page": 1,
+    "_links": {
+        "self": {
+            "href": "https://fainora24.amocrm.ru/api/v4/contacts?limit=25&with=leads&page=1"
+        }
+    },
+    "_embedded": {
+        "contacts": [{
+            "id": 589865,
+            "name": "Имя Фамилия 2",
+            "first_name": "",
+            "last_name": "",
+            "responsible_user_id": 8435086,
+            "group_id": 0,
+            "created_by": 8435086,
+            "updated_by": 8435086,
+            "created_at": 1659957621,
+            "updated_at": 1659957621,
+            "closest_task_at": null,
+            "is_deleted": false,
+            "is_unsorted": false,
+            "custom_fields_values": null,
+            "account_id": 30320323,
+            "_links": {
+                "self": {
+                    "href": "https://fainora24.amocrm.ru/api/v4/contacts/589865?limit=25&with=leads&page=1"
+                }
+            },
+            "_embedded": {
+                "tags": [],
+                "leads": [{
+                    "id": 353775,
+                    "_links": {
+                        "self": {
+                            "href": "https://fainora24.amocrm.ru/api/v4/leads/353775?limit=25&with=leads&page=1"
+                        }
+                    }
+                }],
+                "companies": []
+            }
+        }, {
+            "id": 589875,
+            "name": "Имя Фамилия 3",
+            "first_name": "",
+            "last_name": "",
+            "responsible_user_id": 8435086,
+            "group_id": 0,
+            "created_by": 8435086,
+            "updated_by": 8435086,
+            "created_at": 1659957627,
+            "updated_at": 1659957627,
+            "closest_task_at": null,
+            "is_deleted": false,
+            "is_unsorted": false,
+            "custom_fields_values": null,
+            "account_id": 30320323,
+            "_links": {
+                "self": {
+                    "href": "https://fainora24.amocrm.ru/api/v4/contacts/589875?limit=25&with=leads&page=1"
+                }
+            },
+            "_embedded": {
+                "tags": [],
+                "leads": [],
+                "companies": []
+            }
+        }, {
+            "id": 589883,
+            "name": "Имя Фамилия 5",
+            "first_name": "",
+            "last_name": "",
+            "responsible_user_id": 8435086,
+            "group_id": 0,
+            "created_by": 8435086,
+            "updated_by": 8435086,
+            "created_at": 1659957638,
+            "updated_at": 1659957638,
+            "closest_task_at": null,
+            "is_deleted": false,
+            "is_unsorted": false,
+            "custom_fields_values": null,
+            "account_id": 30320323,
+            "_links": {
+                "self": {
+                    "href": "https://fainora24.amocrm.ru/api/v4/contacts/589883?limit=25&with=leads&page=1"
+                }
+            },
+            "_embedded": {
+                "tags": [],
+                "leads": [{
+                    "id": 353791,
+                    "_links": {
+                        "self": {
+                            "href": "https://fainora24.amocrm.ru/api/v4/leads/353791?limit=25&with=leads&page=1"
+                        }
+                    }
+                }],
+                "companies": []
+            }
+        }, {
+            "id": 589893,
+            "name": "Имя Фамилия 6",
+            "first_name": "",
+            "last_name": "",
+            "responsible_user_id": 8435086,
+            "group_id": 0,
+            "created_by": 8435086,
+            "updated_by": 8435086,
+            "created_at": 1659957643,
+            "updated_at": 1659957643,
+            "closest_task_at": null,
+            "is_deleted": false,
+            "is_unsorted": false,
+            "custom_fields_values": null,
+            "account_id": 30320323,
+            "_links": {
+                "self": {
+                    "href": "https://fainora24.amocrm.ru/api/v4/contacts/589893?limit=25&with=leads&page=1"
+                }
+            },
+            "_embedded": {
+                "tags": [],
+                "leads": [],
+                "companies": []
+            }
+        }, {
+            "id": 589905,
+            "name": "Имя Фамилия 7",
+            "first_name": "",
+            "last_name": "",
+            "responsible_user_id": 8435086,
+            "group_id": 0,
+            "created_by": 8435086,
+            "updated_by": 8435086,
+            "created_at": 1659957647,
+            "updated_at": 1659957647,
+            "closest_task_at": null,
+            "is_deleted": false,
+            "is_unsorted": false,
+            "custom_fields_values": null,
+            "account_id": 30320323,
+            "_links": {
+                "self": {
+                    "href": "https://fainora24.amocrm.ru/api/v4/contacts/589905?limit=25&with=leads&page=1"
+                }
+            },
+            "_embedded": {
+                "tags": [],
+                "leads": [],
+                "companies": []
+            }
+        }, {
+            "id": 589917,
+            "name": "Имя Фамилия 8",
+            "first_name": "",
+            "last_name": "",
+            "responsible_user_id": 8435086,
+            "group_id": 0,
+            "created_by": 8435086,
+            "updated_by": 8435086,
+            "created_at": 1659957654,
+            "updated_at": 1659957654,
+            "closest_task_at": null,
+            "is_deleted": false,
+            "is_unsorted": false,
+            "custom_fields_values": null,
+            "account_id": 30320323,
+            "_links": {
+                "self": {
+                    "href": "https://fainora24.amocrm.ru/api/v4/contacts/589917?limit=25&with=leads&page=1"
+                }
+            },
+            "_embedded": {
+                "tags": [],
+                "leads": [],
+                "companies": []
+            }
+        }, {
+            "id": 589935,
+            "name": "Имя Фамилия 10",
+            "first_name": "",
+            "last_name": "",
+            "responsible_user_id": 8435086,
+            "group_id": 0,
+            "created_by": 8435086,
+            "updated_by": 8435086,
+            "created_at": 1659957670,
+            "updated_at": 1659957702,
+            "closest_task_at": null,
+            "is_deleted": false,
+            "is_unsorted": false,
+            "custom_fields_values": null,
+            "account_id": 30320323,
+            "_links": {
+                "self": {
+                    "href": "https://fainora24.amocrm.ru/api/v4/contacts/589935?limit=25&with=leads&page=1"
+                }
+            },
+            "_embedded": {
+                "tags": [],
+                "leads": [],
+                "companies": [{
+                    "id": 590067,
+                    "_links": {
+                        "self": {
+                            "href": "https://fainora24.amocrm.ru/api/v4/companies/590067?limit=25&with=leads&page=1"
+                        }
+                    }
+                }]
+            }
+        }, {
+            "id": 589879,
+            "name": "Имя Фамилия 4",
+            "first_name": "",
+            "last_name": "",
+            "responsible_user_id": 8435086,
+            "group_id": 0,
+            "created_by": 8435086,
+            "updated_by": 8435086,
+            "created_at": 1659957633,
+            "updated_at": 1659957770,
+            "closest_task_at": null,
+            "is_deleted": false,
+            "is_unsorted": false,
+            "custom_fields_values": null,
+            "account_id": 30320323,
+            "_links": {
+                "self": {
+                    "href": "https://fainora24.amocrm.ru/api/v4/contacts/589879?limit=25&with=leads&page=1"
+                }
+            },
+            "_embedded": {
+                "tags": [],
+                "leads": [{
+                    "id": 353783,
+                    "_links": {
+                        "self": {
+                            "href": "https://fainora24.amocrm.ru/api/v4/leads/353783?limit=25&with=leads&page=1"
+                        }
+                    }
+                }],
+                "companies": [{
+                    "id": 589941,
+                    "_links": {
+                        "self": {
+                            "href": "https://fainora24.amocrm.ru/api/v4/companies/589941?limit=25&with=leads&page=1"
+                        }
+                    }
+                }]
+            }
+        }, {
+            "id": 589925,
+            "name": "Имя Фамилия 9",
+            "first_name": "",
+            "last_name": "",
+            "responsible_user_id": 8435086,
+            "group_id": 0,
+            "created_by": 8435086,
+            "updated_by": 8435086,
+            "created_at": 1659957660,
+            "updated_at": 1659957801,
+            "closest_task_at": null,
+            "is_deleted": false,
+            "is_unsorted": false,
+            "custom_fields_values": null,
+            "account_id": 30320323,
+            "_links": {
+                "self": {
+                    "href": "https://fainora24.amocrm.ru/api/v4/contacts/589925?limit=25&with=leads&page=1"
+                }
+            },
+            "_embedded": {
+                "tags": [],
+                "leads": [{
+                    "id": 353799,
+                    "_links": {
+                        "self": {
+                            "href": "https://fainora24.amocrm.ru/api/v4/leads/353799?limit=25&with=leads&page=1"
+                        }
+                    }
+                }],
+                "companies": [{
+                    "id": 589947,
+                    "_links": {
+                        "self": {
+                            "href": "https://fainora24.amocrm.ru/api/v4/companies/589947?limit=25&with=leads&page=1"
+                        }
+                    }
+                }]
+            }
+        }, {
+            "id": 589829,
+            "name": "Имя 1",
+            "first_name": "",
+            "last_name": "",
+            "responsible_user_id": 8435086,
+            "group_id": 0,
+            "created_by": 8435086,
+            "updated_by": 8435086,
+            "created_at": 1659957517,
+            "updated_at": 1659964049,
+            "closest_task_at": 1660078740,
+            "is_deleted": false,
+            "is_unsorted": false,
+            "custom_fields_values": [{
+                "field_id": 121541,
+                "field_name": "Телефон",
+                "field_code": "PHONE",
+                "field_type": "multitext",
+                "values": [{
+                    "value": "89121212121",
+                    "enum_id": 75871,
+                    "enum_code": "WORK"
+                }]
+            }, {
+                "field_id": 121543,
+                "field_name": "Email",
+                "field_code": "EMAIL",
+                "field_type": "multitext",
+                "values": [{
+                    "value": "example@mail.ru",
+                    "enum_id": 75883,
+                    "enum_code": "WORK"
+                }]
+            }],
+            "account_id": 30320323,
+            "_links": {
+                "self": {
+                    "href": "https://fainora24.amocrm.ru/api/v4/contacts/589829?limit=25&with=leads&page=1"
+                }
+            },
+            "_embedded": {
+                "tags": [],
+                "leads": [{
+                    "id": 353701,
+                    "_links": {
+                        "self": {
+                            "href": "https://fainora24.amocrm.ru/api/v4/leads/353701?limit=25&with=leads&page=1"
+                        }
+                    }
+                }],
+                "companies": []
+            }
+        }, {
+            "id": 589859,
+            "name": "Имя  Фамилия 1",
+            "first_name": "Имя",
+            "last_name": "Фамилия 1",
+            "responsible_user_id": 8435086,
+            "group_id": 0,
+            "created_by": 8435086,
+            "updated_by": 8435086,
+            "created_at": 1659957591,
+            "updated_at": 1660066275,
+            "closest_task_at": null,
+            "is_deleted": false,
+            "is_unsorted": false,
+            "custom_fields_values": null,
+            "account_id": 30320323,
+            "_links": {
+                "self": {
+                    "href": "https://fainora24.amocrm.ru/api/v4/contacts/589859?limit=25&with=leads&page=1"
+                }
+            },
+            "_embedded": {
+                "tags": [],
+                "leads": [],
+                "companies": [{
+                    "id": 589939,
+                    "_links": {
+                        "self": {
+                            "href": "https://fainora24.amocrm.ru/api/v4/companies/589939?limit=25&with=leads&page=1"
+                        }
+                    }
+                }]
+            }
+        }]
+    }
+}

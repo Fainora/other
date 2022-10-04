@@ -1,0 +1,55 @@
+{
+    "_page": 1,
+    "_links": {
+        "self": {
+            "href": "https://fainora24.amocrm.ru/api/v4/tasks?page=1&limit=50"
+        }
+    },
+    "_embedded": {
+        "tasks": [{
+            "id": 23941,
+            "created_by": 8435086,
+            "updated_by": 8435086,
+            "created_at": 1659964049,
+            "updated_at": 1659964049,
+            "responsible_user_id": 8435086,
+            "group_id": 0,
+            "entity_id": 589829,
+            "entity_type": "contacts",
+            "duration": 0,
+            "is_completed": false,
+            "task_type_id": 1,
+            "text": "Имя",
+            "result": [],
+            "complete_till": 1660078740,
+            "account_id": 30320323,
+            "_links": {
+                "self": {
+                    "href": "https://fainora24.amocrm.ru/api/v4/tasks/23941?page=1&limit=50"
+                }
+            }
+        }, {
+            "id": 28801,
+            "created_by": 8435086,
+            "updated_by": 8435086,
+            "created_at": 1660037338,
+            "updated_at": 1660037338,
+            "responsible_user_id": 8435086,
+            "group_id": 0,
+            "entity_id": 589859,
+            "entity_type": "contacts",
+            "duration": 0,
+            "is_completed": false,
+            "task_type_id": 2,
+            "text": "ывафыв",
+            "result": [],
+            "complete_till": 1660078740,
+            "account_id": 30320323,
+            "_links": {
+                "self": {
+                    "href": "https://fainora24.amocrm.ru/api/v4/tasks/28801?page=1&limit=50"
+                }
+            }
+        }]
+    }
+}
