@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg: #EEEFEA;
+    --text: #2D4057;
+    --text-additional: #000000;
+    --main: #527590;
+    --additional: #FEB29B;
+}
+
+body {
+    background: var(--bg);
+    padding: 0 130px;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--text);
+}
+
+h1 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 3px;
+    color: var(--text-additional);
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: var(--text-additional);
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.section-m1 {
+    margin: 20px 0;
+}
+
+.first-section {
+    display: flex;
+    padding-top: 30px;
+    border-bottom: 2px dashed var(--main);
+}
+
+/* LEFT COLUMN */
+.left-col {
+    border-right: 2px dashed var(--main);
+    padding-right: 50px;
+}
+
+.about {
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center
+}
+
+span {
+    color: var(--additional);
+}
+
+.photo {
+    width: 200px;
+    height: 200px;
+    background-color: var(--main);
+    border-radius: 100%;
+    margin-bottom: 15px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+}
+
+.box {
+    width: 90px;
+    background-color: var(--main);
+    margin-bottom: 20px;
+}
+
+.languages > .container {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.flag {
+    width: 100px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.list > .box {
+    width: 35px;
+    height: 35px;
+    margin-bottom: 0;
+    margin-right: 20px;
+}
+
+/* RIGHT COLUMN */
+.right-col {
+    padding-left: 50px;
+}
+
+.abilities {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.abilities > .container {
+    width: 100%;
+    background-color: #ddd;
+    display: none;
+}
+
+.skills {
+    text-align: right;
+    padding-right: 20px;
+    line-height: 40px;
+}
+
+.html {width: 90%; background-color: #4CAF50;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f44336;}
+.php {width: 60%; background-color: #808080;}
+
+.icon {
+    width: 80px;
+    height: 100px;
+    background-color: var(--main);
+}
+
+/* PORTFOLIO */
+.portfolio {
+    padding: 30px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.portfolio > div {
+    min-width: 250px;
+    height: 300px;
+    background-color: var(--main);
+    margin: 0 50px;
+    margin-bottom: 50px;
+}
